@@ -1,23 +1,21 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#081310" />
-  <meta name="description" content="LEVELUP مصر - شحن ألعاب سريع وآمن" />
-  <title>LEVELUP مصر — شحن الألعاب</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEVELUP مصر | شحن ألعاب سريع وآمن</title>
+  
+  <meta property="og:title" content="LEVELUP مصر — شحن الألعاب">
+  <meta property="og:description" content="شحن ألعاب سريع وآمن في مصر">
+  <meta property="og:image" id="ogImage" content="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" id="twitterImage" content="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80">
 
-  <meta property="og:title" content="LEVELUP مصر — شحن الألعاب" />
-  <meta property="og:description" content="شحن ألعاب سريع وآمن في مصر" />
-  <meta property="og:image" id="ogImage" content="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80" />
-  <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image" id="twitterImage" content="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  
   <style>
     :root {
       --bg: #081310;
@@ -32,13 +30,7 @@
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      background-color: var(--bg);
-      color: var(--text);
-      font-family: var(--font-main);
-      overflow-x: hidden;
-      line-height: 1.6;
-    }
+    body { background-color: var(--bg); color: var(--text); font-family: var(--font-main); overflow-x: hidden; line-height: 1.6; }
 
     #starfield { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: -2; pointer-events: none; }
     .grain { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><filter id="noiseFilter"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch"/></filter><rect width="100%" height="100%" filter="url(%23noiseFilter)" opacity="0.03"/></svg>'); z-index: -1; pointer-events: none; }
